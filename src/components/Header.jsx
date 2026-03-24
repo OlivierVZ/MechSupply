@@ -13,8 +13,8 @@ function Header() {
         <>
 
             <Navbar expand="md" className="nav" bg="light" data-bs-theme="Light">
-                <Container className="d-flex align-items-center flex-nowrap">
-                    <Navbar.Brand as={NavLink} to="/" className={" mx-0"}>
+                <Container className="d-flex align-items-center no-wrap">
+                    <Navbar.Brand as={NavLink} to="/" className={" mx-0 order-1"}>
                         <img
                             src={logo}
                             width="120"
@@ -24,7 +24,7 @@ function Header() {
                         />
                     </Navbar.Brand>
 
-                    <div className="d-flex align-items-center">
+                    <div className="d-flex align-items-center order-2">
                         <Navbar.Toggle aria-controls="main-navbar"/>
                         <Nav className="ms-2 d-md-none">
                             <Nav.Link as={NavLink} to="/cart" className={'mx-2 p-0'}>
@@ -39,7 +39,7 @@ function Header() {
                         </Nav>
                     </div>
 
-                    <Navbar.Collapse id="main-navbar" className="mx-auto justify-content-center flex-grow-1">
+                    <Navbar.Collapse id="main-navbar" className="w-100 order-3 flex-md-grow-1 mx-auto justify-content-center mt-2 mt-md-0">
                         <Nav>
                             <Nav.Link as={NavLink} to="/products" className={'mx-4'}>Products</Nav.Link>
                             <Nav.Link as={NavLink} to="/support" className={'mx-4'}>Support</Nav.Link>
@@ -47,7 +47,7 @@ function Header() {
                         </Nav>
                     </Navbar.Collapse>
 
-                    <Nav className="d-none d-md-flex ms-auto">
+                    <Nav className="d-none d-md-flex ms-auto order-4">
                         <Nav.Link as={NavLink} to="/cart" className={'mx-2 p-0'}>
                             <i className="bi bi-bag-fill icon-bag-thick position-relative">
                                 {totalItems > 0 && (
