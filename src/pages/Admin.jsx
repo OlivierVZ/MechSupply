@@ -97,7 +97,7 @@ export default function Admin() {
                                             <div className="mt-2 text-muted">{order.items ? order.items.length : 0} line items • {order.items ? order.items.reduce((s,it)=>s+it.quantity,0) : 0} pcs</div>
                                         </div>
                                         <div className="text-end">
-                                            <div className="fw-semibold mb-2">${order.total.toFixed(2)}</div>
+                                            <div className="fw-semibold mb-2">€{order.total.toFixed(2)}</div>
                                             <button className="btn btn-sm btn-outline-secondary" onClick={() => setExpandedId(expandedId === order.id ? null : order.id)}>
                                                 {expandedId === order.id ? 'Hide details' : 'View details'}
                                             </button>
@@ -115,7 +115,7 @@ export default function Admin() {
                                                         </div>
                                                         <div className="text-end">
                                                             <div>x{it.quantity}</div>
-                                                            <div className="text-muted">${(it.price * it.quantity).toFixed(2)}</div>
+                                                            <div className="text-muted">€{(it.price * it.quantity).toFixed(2)}</div>
                                                         </div>
                                                     </div>
                                                 ))}

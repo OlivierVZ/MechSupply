@@ -3,18 +3,18 @@ import { createRoot } from 'react-dom/client'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import 'bootstrap-icons/font/bootstrap-icons.css'
 import {CartProvider} from "./context/CartContext.jsx";
-import {BrowserRouter} from 'react-router-dom';
+import {HashRouter as Router} from 'react-router-dom';
 import App from './App.jsx'
 
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-      <BrowserRouter basename="/MechSupply/">
+      <Router>
           <CartProvider>
               <App />
           </CartProvider>
 
-      </BrowserRouter>
+      </Router>
 
   </StrictMode>,
 )
