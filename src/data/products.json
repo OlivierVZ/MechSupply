@@ -1,0 +1,114 @@
+[
+  {
+    "id": 1,
+    "name": "Cherry MX Red Switch",
+    "price": 0.45,
+    "image": "https://i.rtings.com/assets/products/ePW6nIe5/cherry-mx-red/design-medium.jpg?format=auto",
+    "description": "Linear mechanical switches with smooth keystroke, popular for gaming.",
+    "category": "switches"
+  },
+  {
+    "id": 2,
+    "name": "Gateron Brown Switch",
+    "price": 0.40,
+    "image": "https://i.rtings.com/assets/products/ORhUny09/gateron-g-pro-brown/design-medium.jpg?format=auto",
+    "description": "Tactile switches that offer a subtle bump without a loud click.",
+    "category": "switches"
+  },
+  {
+    "id": 3,
+    "name": "MW Fuyu Hiranga Keycap Set",
+    "price": 85.95,
+    "image": "https://www.mwkeys.com/cdn/shop/files/MW-Fuyu_Hiragana.jpg?v=1687945095&width=800",
+    "description": "Durable dye-sublimated PBT keycaps in a colorful themed set.",
+    "category": "keycaps"
+  },
+  {
+    "id": 4,
+    "name": "Tofu Aluminum 60% Case - Black",
+    "price": 89.95,
+    "image": "https://kbdfans.com/cdn/shop/products/WB.jpg?v=1649404188",
+    "description": "Machined aluminum case providing a solid heft and premium finish.",
+    "category": "keyboard"
+  },
+  {
+    "id": 5,
+    "name": "Custom Coiled USB-C Cable",
+    "price": 24.5,
+    "image": "https://m.media-amazon.com/images/I/61Xv4mtLUVL._AC_UF894,1000_QL80_.jpg",
+    "description": "Braided custom cable with coiled section and USB-C connectors.",
+    "category": "keyboard"
+  },
+  {
+    "id": 6,
+    "name": "CannonKeys Hot-Swap PCB 60%",
+    "price": 54.0,
+    "image": "https://cannonkeys.com/cdn/shop/files/Bastion60_Hotswap.jpg?v=1689796825&width=2048",
+    "description": "Hot-swap printed circuit board compatible with 60% layouts.",
+    "category": "keyboard"
+  },
+  {
+    "id": 7,
+    "name": "Screw-in Stabilizers (4pcs)",
+    "price": 9.99,
+    "image": "https://divinikey.com/cdn/shop/products/durock-v2-stabilizers-screw-in-319036.jpg?v=1634950960&width=1214",
+    "description": "Lubed Durcok screw-in stabilizers for a quieter and more stable stabs.",
+    "category": "keyboard"
+  },
+  {
+    "id": 8,
+    "name": "Case Foam Kit - 60%",
+    "price": 7.5,
+    "image": "https://massdrop-s3.imgix.net/product-images/drop-shift-keyboard-foam-kit/FP/3CEfsMmRcWgSYiv92w0f_SHIFT_FOAM_7043-copy.jpg?auto=format&fm=jpg&fit=fill&w=500&h=333&bg=f0f0f0&dpr=1&chromasub=444&q=70",
+    "description": "Acoustic foam set to dampen hollowness and improve sound profile.",
+    "category": "keyboard"
+  },
+  {
+    "id": 9,
+    "name": "Neo 65% Keyboard Kit",
+    "price": 129.99,
+    "image": "https://prototypist.net/cdn/shop/files/render2.png?v=1691756351&width=1000",
+    "description": "Complete 65% keyboard kit with PCB, case, and plate included.",
+    "category": "keyboard"
+  },
+  {
+    "id": 10,
+    "name": "Gazzew Boba U4T (62g)",
+    "price": 0.55,
+    "image": "https://i.rtings.com/assets/products/T2GOKJ5k/gazzew-boba-u4t-62g/design-medium.jpg?format=auto",
+    "description": "Tactile mechanical switches with a unique bump profile, designed for a satisfying typing experience.",
+    "category": "switches"
+  },
+  {
+    "id": 11,
+    "name": "Durock T1 (67g)",
+    "price": 0.50,
+    "image": "https://i.rtings.com/assets/products/acRxkcE0/durock-t1/design-medium.jpg?format=auto",
+    "description": "Tactile mechanical switches with a pronounced bump, ideal for typists who prefer a more tactile feel.",
+    "category": "switches"
+  },
+  {
+    "id": 12,
+    "name": "NovelKeys Cream Switch",
+    "price": 0.60,
+    "image": "https://i.rtings.com/assets/products/QAhKIgrR/novelkeys-x-kailh-cream/design-medium.jpg?format=auto",
+    "description": "Linear mechanical switches with a smooth and creamy keystroke, popular for both gaming and typing.",
+    "category": "switches"
+  },
+  {
+    "id": 13,
+    "name": "GMK Classic Retro Keycap Set",
+    "price": 99.95,
+    "image": "https://dailyclack.com/cdn/shop/products/thrill_1.png?v=1628213748",
+    "description": "High-quality dye-sublimated PBT keycaps in a nostalgic retro colorway.",
+    "category": "keycaps"
+  },
+  {
+    "id": 14,
+    "name": "Tofu84 Aluminum 75% Case - Silver",
+    "price": 109.95,
+    "image": "https://mechanicalkeyboards.com/cdn/shop/files/5870-NU95Z-Tofu-84-Aluminum-Mechanical-Keyboard-Case-Silver.jpg?v=1714407362&width=750",
+    "description": "Machined aluminum case providing a solid heft and premium finish for 75% keyboards.",
+    "category": "keyboard"
+  }
+]
