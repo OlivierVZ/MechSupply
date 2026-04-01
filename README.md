@@ -5,7 +5,11 @@
 ![Bootstrap](https://img.shields.io/badge/Bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white)
 # MechSupply
 
-MechSupply is a small frontend-only webshop project that lives in the `MechSupply/` directory of this repository. I built it as a Project for my studies to practice TReact, React Router, and SCSS styling. The app demonstrates a typical product-list → cart → checkout flow and simulates persistence using the browser's localStorage (no backend required).
+**MechSupply** is a frontend-only webshop demo built to practice **React, React Router, and SCSS**.  
+It demonstrates a typical product-list → cart → checkout flow with a small admin panel for product management.  
+All data is persisted in the browser's **localStorage**, making it a fully functional demo without a backend.
+
+A demo of the website can be viewed on this url(https://oliviervz.github.io/MechSupply/)
 
 ## Overview
 
