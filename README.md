@@ -97,5 +97,3 @@ This project is free to use, modify, and distribute by anyone. The code in this 
 
 - This project used GitHub Copilot to speed up development (code suggestions, scaffolding, and small refactors).
 - UI and visual design decisions, content, and the final implementation were created by me.
-
-Happy hacking — if you want me to update this README further (shorter, more visual, or add screenshots), tell me what to include.
